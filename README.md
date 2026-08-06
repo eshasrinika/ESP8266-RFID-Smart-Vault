@@ -92,6 +92,28 @@ An embedded security system built using the **ESP8266 NodeMCU** that authenticat
 
 ---
 
+## 🏗️ Project Architecture
+
+```text
+                   RFID Card
+                       │
+                       ▼
+               RC522 RFID Reader
+                       │
+                    SPI Bus
+                       │
+                       ▼
+             ESP8266 NodeMCU (Controller)
+        ┌───────────┼───────────┬───────────┐
+        │           │           │           │
+        ▼           ▼           ▼           ▼
+   Servo Motor    LCD       Green LED   Red LED
+     (Lock)      Display                  │
+                                          ▼
+                                      Active Buzzer
+
+---
+
 ## ⚙️ System Workflow
 
 1. System initializes all peripherals.
@@ -144,9 +166,31 @@ RFID-Smart-Vault/
 ├── .gitignore
 ├── platformio.ini
 └── README.md
+
 ```
+---
+
+## 🎬 Project Demonstration
+
+### ✅ Access Granted
+
+![Access Granted](images/access_granted.gif)
 
 ---
+
+### ❌ Access Denied
+
+![Access Denied](images/access_denied.gif)
+
+---
+
+### 🔒 System Locked Out
+
+![Locked Out](images/locked_out.gif)
+---
+
+---
+
 
 ## 📚 What I Learned
 
@@ -171,37 +215,30 @@ RFID-Smart-Vault/
 
 ---
 
-# 🎥 Project Demonstration
 
-### Complete System Demo
+# 🎥 Full Demonstration Videos
 
-▶️ [vault_demo.mp4](videos/vault_demo.mp4)
+The following videos showcase the complete functionality of the RFID Smart Vault Security System.
 
-### Access Granted
+### 🎬 Complete Project Demonstration
 
-▶️ [vault_access_granted.mp4](videos/vault_access_granted.mp4)
-
-### Locked Out
-
-▶️ [vault_lockedout.mp4](videos/vault_lockedout.mp4)
+[▶️ Watch Complete Demo](videos/vault_demo.mp4)
 
 ---
 
-# 🎞️ Short Preview Clips
+### ✅ Access Granted Demonstration
 
-### Access Granted Preview
+Shows successful RFID authentication, LCD status update, green LED indication, buzzer feedback, and servo motor unlocking.
 
-▶️ [rfid_accessgranted_gif.mp4](videos/rfid_accessgranted_gif.mp4)
-
-### Access Denied Preview
-
-▶️ [rfid_accessdenied_gif.mp4](videos/rfid_accessdenied_gif.mp4)
-
-### Locked Out Preview
-
-▶️ [rfid_lockedout_gif.mp4](videos/rfid_lockedout_gif.mp4)
+[▶️ Watch Access Granted Demo](videos/vault_access_granted.mp4)
 
 ---
+
+### 🔒 Locked Out Demonstration
+
+Demonstrates the lockout mechanism after multiple unauthorized access attempts, including LCD warning, red LED indication, and buzzer alert.
+
+[▶️ Watch Locked Out Demo](videos/vault_lockedout.mp4)
 
 ## 👩‍💻 Author
 
