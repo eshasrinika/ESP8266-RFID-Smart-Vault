@@ -8,15 +8,15 @@ An embedded security system built using the **ESP8266 NodeMCU** that authenticat
 
 ### Overall Setup
 
-![Setup](images/setup.jpg)
+![Setup](images/setup.jpeg)
 
 ### Top View
 
-![Top View](images/top_view.jpg)
+![Top View](images/top_view.jpeg)
 
 ### Servo Motor
 
-![Servo](images/servo.jpg)
+![Servo](images/servo.jpeg)
 ---
 
 ---
