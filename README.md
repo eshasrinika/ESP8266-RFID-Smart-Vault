@@ -4,9 +4,20 @@ An embedded security system built using the **ESP8266 NodeMCU** that authenticat
 
 ---
 
-## 📸 Hardware Setup
+## 📷 Hardware Images
 
-![Hardware Setup](images/setup.jpeg)
+### Overall Setup
+
+![Setup](images/setup.jpg)
+
+### Top View
+
+![Top View](images/top_view.jpg)
+
+### Servo Motor
+
+![Servo](images/servo.jpg)
+---
 
 ---
 
