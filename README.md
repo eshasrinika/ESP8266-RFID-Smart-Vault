@@ -10,7 +10,7 @@ An embedded security system built using the **ESP8266 NodeMCU** that authenticat
 
 ---
 
-## ✨ Features
+##  Features
 
 - RFID-based authentication using the RC522 module
 - Servo motor-controlled vault locking and unlocking
@@ -160,7 +160,7 @@ RFID-Smart-Vault/
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Web dashboard for monitoring
 - Firebase integration
